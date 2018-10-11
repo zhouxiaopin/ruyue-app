@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*顶部导航栏*/
+.mint-header {
+  background-color: #ffffff;
+  /*color: #5f5e5b;*/
+  /*border-bottom: 3px solid;*/
+  /*border-image: -webkit-linear-gradient( #cfcece,#ffffff) 30 30;*/
+  /*border-image: -moz-linear-gradient( #cfcece,#ffffff) 30 30;*/
+  /*border-image: linear-gradient( #cfcece,#ffffff) 30 30;*/
+  box-shadow:1px 0 10px #D7D7D7;
+  height:0.9rem;
+}
+.mint-header-title{
+  color: #5f5e5b;
+}
+/* navbar没选中 */
+.mint-navbar .mint-tab-item{
+  color: #999894;
+}
+/* navbar选中 */
+.mint-navbar .mint-tab-item.is-selected{
+  border-bottom: 3px solid #FC9A1F;
+  color: #FC9A1F;
+}
+
+/*tab选中*/
+.mint-tabbar > .mint-tab-item.is-selected{
+  background-color:transparent;
+  color: #FC9A1F;
+}
+
+
+
+
+
+/**************form**********/
+
+
+/******************************/
+
+/*button*/
+
+/*背景色*/
+.mint-button--default{
+  background-color: #DBDADA;
+}
+.mint-button--primary{
+  background-color: #FC9A1D;
+}
+.mint-button--danger{
+  background-color: #EE5647;
+}
+/*字体大小*/
+.mint-button--small{
+  font-size: 0.1rem;
+  height: 0.48rem;
+}
+.mint-button--normal{
+  font-size: 0.3rem;
+}
+/*字体颜色*/
+.mint-button--default .mint-button-text{
+  color: #8c8a88;
+}
+.mint-button--primary .mint-button-text,.mint-button--danger .mint-button-text{
+  color: #FFFFFF;
+}
+/*.mint-button--primary .mint-button-text{
+  font-size: 0.3rem;
+}*/
+.mint-button::after{
+  background-color: rgba(255,255,255,0);
+}
+
+/*复选框*/
+.mint-checklist{
+  display: flex;
+  flex-direction: row;
+}
+.mint-checklist-label{
+  padding: 0;
+}
+.mint-checklist-title{
+  margin: 0;
+}
+.mint-checkbox-core{
+  border-radius: 0;
+  width: 0.25rem;
+  height: 0.25rem;
+}
+.mint-checkbox-core::after {
+  top: 0.008rem;
+  left: 0.064rem;
+}
+.mint-checkbox-input:checked + .mint-checkbox-core {
+  background-color: #EE5647;
+  border-color: #EE5647;
+}
+.mint-cell:last-child {
+  background-image: none;
+}
+span.mint-checkbox-label{
+  font-size: 0.2rem;
+}
+.mint-checkbox-label{
+  margin-left: 0;
+}
+.mint-cell-wrapper{
+  padding: 0;
+}
+
+
+/***************/
+
+/******搜索框******/
+/*搜索框*/
+.mint-searchbar{
+  background-color: #FFFFFF;
+}
+.mint-searchbar-inner{
+  border: #D4D4D4 0.01rem solid;
+  border-radius: 0.5rem;
+}
+.mint-searchbar-cancel{
+  color: #A9A8A4;
+}
